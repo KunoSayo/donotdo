@@ -54,4 +54,3 @@ scoreboard players set @a broadcast 0
 tag @a remove receiveBroadcast
 
 scoreboard players reset @a DoNotTemp
-execute unless entity @a[scores={Left=1..}] run function donotdo:stop
